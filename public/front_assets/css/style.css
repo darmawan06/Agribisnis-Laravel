@@ -1,0 +1,1261 @@
+/* Color declaration */
+:root {
+    --primary: #FEFFDE;
+    --secondary-one: #DDFFBC;
+    --secondary-two: #91C788;
+    --black: #464646;
+    --white: #FFFFFF ;
+    --grey: ;
+    --font-1: 'Kanit', sans-serif;
+    --font-2: 'Archivo', sans-serif;
+}
+
+/* Font Declaration */
+.header1 {
+    font-size: 28px;
+    line-height: normal;
+    font-family: var(--font-1);
+}
+
+.header2 {
+    font-size: 24px;
+    line-height: normal;
+    font-family: var(--font-1);
+}
+
+.header3 {
+    font-size: 20px;
+    line-height: normal;
+    font-family: var(--font-1);
+}
+
+.body1 {
+    font-size: 16px;
+    line-height: normal;
+    font-family: var(--font-2);
+}
+
+.body2 {
+    font-size: 12px;
+    line-height: normal;
+    font-family: var(--font-2);
+}
+/* End Font Declaration */
+
+
+/* text color declaration */
+.color-primary {
+    color: var(--primary);
+}
+
+.color-secondary-one {
+    color: var(--secondary-one);
+}
+
+.color-secondary-two {
+    color: var(--secondary-two);
+}
+
+.color-white {
+    color: var(--white);
+}
+
+.color-black {
+    color: var(--black);
+}
+
+.color-grey {
+    color: var(--grey);
+}
+/* End Text Color Declaration */
+
+/* text color declaration */
+.background-primary {
+    background: var(--primary);
+}
+
+.background-secondary-one {
+    background: var(--secondary-one);
+}
+
+.background-secondary-two {
+    background: var(--secondary-two);
+}
+
+.background-white {
+    background: var(--white);
+}
+
+.background-black {
+    background: var(--black);
+}
+
+.background-grey {
+    background: var(--grey);
+}
+/* End Text Color Declaration */
+
+
+/* Button Declaration */
+.button-layout {
+    background-color: var(--secondary-one);
+    border-radius: 24px;
+    color: var(--white);
+    font-family: var(--font-2);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    padding: 8px 24px;
+    letter-spacing: normal;
+    text-transform: none;
+    transition: .2s ease;
+    line-height: normal;
+}
+
+.button-layout:hover,
+.button-layout.footer-button:hover {
+    filter: brightness(.90);
+}
+/* End Button Declaration */
+
+/* Utils */
+.w-full{
+    width: 100%;
+}
+
+.h-full{
+    height: 100%;
+}
+
+li{
+    list-style: none;
+}
+
+*{
+    padding: 0;
+    margin:0;
+}
+
+.slick-slider {
+    margin:0 -15px;
+}
+.slick-slide {
+    padding:10px;
+    text-align:center;
+    margin-right:15px;
+    margin-left:15px;
+}
+
+a:hover{
+    color: var(--black);
+    text-decoration: none;
+
+}
+/* End Utils */
+
+
+/* Navbar */
+.navbar-scrolled {
+    background-color: var(--accent) !important;
+}
+
+#navbar{
+    height: calc(69px + 10px);
+}
+.navbar-wrapper-logo{
+    border-radius: 0 0 5px 5px;
+}
+
+.navbar-logo{
+    width: 60px;
+    height: 40px;
+}
+
+.navbar-item{
+    font-weight: 400;
+    line-height: 30px;
+    display: flex;
+    align-items: flex-end;
+    letter-spacing: 0.05em;
+}
+
+.navbar-item-kontak{
+    border-radius: 5px;
+}
+
+
+
+/* Header */
+#header{
+    height: 461px;
+    margin-top: calc(69px + 10px + 66px);
+}
+.header-bg{
+    top: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.header-bg-front{
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(-90deg, rgba(254, 255, 222, 0) 0%, #DDFFBC 100%);
+}
+
+.header-title{
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 48px;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    width: 40%;
+    height: 148px;
+}
+
+/* Keunggulan Perusahaan - keper */
+#keunggulanPerusahaan {
+    margin-top: 60px;
+    height: 327px;
+}
+
+.keper-title{
+    font-weight: 600;
+    line-height: 36px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    margin-top: 10px;
+}
+
+.keper-title i{
+    font-style: normal;
+    color: var(--secondary-two);
+}
+
+.keper-list{
+    margin-top: 24px;
+    width: 80%;
+    height: auto;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    gap:10px;
+}
+
+.keper-item{
+    width: 240px;
+    height: 240px;
+    border-radius: 5px;
+    border: 2px solid var(--secondary-two);
+}
+
+.keper-item-logo{
+    width: 48px;
+    height: 48px;
+    object-fit: cover;
+}
+
+.keper-item-desc{
+    font-weight: 600;
+    line-height: 17px;
+    text-align: center;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    width: 80%;
+    margin-top: 12px;
+}
+/* End Keunggulan Perusahaan - keper */
+
+
+/* Keunggulan Produk - kepro */
+#keunggulanProduk {
+    margin-top: 60px;
+    height: 398px;
+}
+
+.kepro-wrapper-img{
+    width: 60%;
+    height: 100%;
+    background: var(--secondary-one);
+}
+
+.kepro-wrapper-text{
+    width: 30%;
+}
+
+.kepro-img{
+    width: 90%;
+    object-fit: cover;
+
+}
+
+.kepro-title{
+    font-weight: 600;
+    line-height: 36px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+}
+
+.kepro-title i{
+    font-style: normal;
+    color: var(--secondary-two);
+}
+
+.kepro-desc{
+    font-weight: 400;
+    line-height: 17px;
+    letter-spacing: 0.11em;
+}
+/* End Keunggulan Produk - kepro */
+
+
+/* Gambar Proses - gapro */
+#gambarProses{
+    margin-top: 60px;
+    height: 395px;
+}
+
+.gapro-title{
+    font-weight: 600;
+    line-height: 36px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    margin-top: 10px;
+}
+
+.gapro-title i{
+    font-style: normal;
+    color: var(--secondary-two);
+}
+
+.gapro-list{
+    margin-top: 24px;
+    width: 80%;
+    height: auto;
+    justify-content: space-between;
+    align-items: center;
+    gap:10px;
+}
+
+.gapro-item{
+    width: 260px;
+    height: 260px;
+    border-radius: 5px;
+    border: 2px solid var(--secondary-two);
+
+}
+
+.gapro-item-logo{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.gapro-item-desc{
+    width: 100%;
+    height: 57px;
+    bottom: 0;
+    background-color: var(--secondary-one);
+    padding: 10px;
+}
+
+.gapro-item-desc p{
+    font-weight: 600;
+    line-height: 17px;
+    text-align: center;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+}
+/* End Gambar Proses - gapro */
+
+
+/* Tentang Kami - teka */
+#tentangKami {
+    margin-top:60px;
+    height: 323px;
+}
+
+.teka-wrapper-img{
+    width: 60%;
+    background: var(--secondary-one);
+    margin-left: auto;
+}
+
+.teka-wrapper-text{
+    width: 35%;
+}
+
+.teka-img{
+    width: 90%;
+    object-fit: cover;
+}
+
+.teka-title{
+    font-weight: 600;
+    line-height: 36px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+}
+
+.teka-desc{
+    font-weight: 400;
+    line-height: 17px;
+    letter-spacing: 0.05em;
+}
+/* End Tentang Kami - teka */
+
+
+/* Kenapa Harus Beli Kepada Kami - keha */
+#kenapaHarusBeliKepadaKami {
+    margin-top: 60px;
+    height: 382px;
+}
+
+.keha-title{
+    font-weight: 600;
+    line-height: 36px;
+    letter-spacing: 0.05em;
+    text-align: center;
+}
+
+.keha-subtitle{
+    margin-top: 12px;
+    font-weight: 400;
+    line-height: 17px;
+    text-align: center;
+    letter-spacing: 0.05em;
+}
+
+.keha-list{
+    justify-content: space-between;
+    margin-top: 18px;
+
+}
+
+.keha-item{
+    width: 218px;
+    height: 199px;
+}
+
+.keha-item-icon{
+    width: 60px;
+    height: 60px;
+}
+
+.keha-item-desc{
+    margin-top: 24px;
+    font-weight: 500;
+    line-height: 17px;
+    text-align: center;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+}
+/* End Kenapa Harus Beli Kepada Kami - keha */
+
+
+/* Testimoni - testimoni */
+#testimoni {
+    margin-top: 48px;
+    height:402px;
+}
+
+.testimoni-title{
+    font-weight: 600;
+    line-height: 36px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    width:90%;
+}
+
+.testimoni-list{
+    width: auto;
+    height: auto;
+    margin-top: 44px;
+    margin-right: auto;
+}
+
+.testimoni-item{
+    background: red;
+} 
+
+.testimoni-img{
+    width: 35%;
+    height: 100%;
+    max-height: 250px;
+    object-fit: cover;
+}
+.testimoni-wrapper-text{
+    width:45%;
+    margin-left: 20px;
+    text-align: left;
+}
+
+.testimoni-btn{
+    width: 60px;
+    height: 60px;
+    margin: auto 0 0 auto;
+    object-fit: cover;
+}
+/* End Testimoni - testimoni */
+
+
+/* Daftar Produk - dapro */
+#daftarProduk {
+    margin-top: 48px;
+    height: 477px;
+    position: relative;
+}
+
+.dapro-bg{
+    top: 0;
+    position: absolute;
+    width: 50%;
+    height: 100%;
+    background-color: var(--secondary-one);
+}
+.dapro-title{
+    font-weight: 600;
+    line-height: 36px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    width:100%;
+    text-align: center;
+}
+
+.dapro-list{
+    width: auto;
+    height: auto;
+    margin-top: 44px;
+    margin-right: auto;
+}
+
+.dapro-item{
+    border-radius: 5px;
+} 
+
+.dapro-img{
+    border-radius: 5px;
+    width: 288px;
+    height: 270px;
+    object-fit: cover;
+}
+/* End Daftar Produk - dapro */
+
+
+/* Footer */
+/* Kontak Kami - koka */
+
+.kontak-kami{
+     margin-left: 40px;
+}
+.koka-title{
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 38px;
+    margin-bottom: 17px;
+}
+
+.koka-subtitle{
+    font-weight: 400;
+    line-height: 28px;
+    margin-bottom: 24px;
+}
+
+.koka-list li{
+    margin: 10px 0px;
+}
+
+.koka-icon{
+    width: 37px;
+    height: 37px;
+
+}
+
+.koka-desc{
+    margin-left: 12px;
+    font-weight: 400;
+    line-height: 17px;
+}
+.koka-list{
+    margin-bottom: 39px;
+}
+
+.koka-btn{
+    width: 160px;
+    height: 42px;
+    letter-spacing: 0.04em;
+    font-weight: 700;
+    color: white !important;
+}
+
+/* End Kontak Kami - koka */
+
+/* Footer */
+
+.footer-title{
+    text-transform: uppercase;
+}
+.footer-wrapper-konten{
+    height: 80%;
+}
+footer{
+    margin-top: 60px;
+    position: relative;
+}
+.footer-bg{
+    top: 0;
+    right: 0;
+    position: absolute;
+    width: 50%;
+    height: 100%;
+    background-color: var(--secondary-one);
+}
+footer .container{
+    height: 304px;
+}
+
+
+footer a{
+    margin: 0 10px;
+    color: var(--black) !important;
+}
+
+.footer-konten-list a{
+    margin-top:10px;
+    color: var(--black) !important;
+}
+
+.footer-logo{
+    width: 221px;
+    height: 99px;
+}
+
+.footer-copyright{
+    border-top: 1px solid var(--black);
+    text-align: center;
+}
+
+.footer-list-icon{
+        width: 37px;
+        height: 37px;
+}
+@media only screen and (max-width: 767.98px) {
+
+
+    /* Font Declaration */
+    .header1 {
+        font-size: 26px;
+        line-height: normal;
+        font-family: var(--font-1);
+    }
+
+    .header2 {
+        font-size: 22px;
+        line-height: normal;
+        font-family: var(--font-1);
+    }
+
+    .header3 {
+        font-size: 18px;
+        line-height: normal;
+        font-family: var(--font-1);
+    }
+
+    .body1 {
+        font-size: 14px;
+        line-height: normal;
+        font-family: var(--font-2);
+    }
+
+    .body2 {
+        font-size: 10px;
+        line-height: normal;
+        font-family: var(--font-2);
+    }
+    /* End Font Declaration */
+
+    /* Button Declaration */
+
+
+    /* Utils */
+
+
+    /* Navbar */
+
+    
+    /* Header */
+
+
+    
+    /* Keunggulan Perusahaan - keper */
+        #keunggulanPerusahaan {
+            margin-top: 60px;
+            height: auto;
+        }
+
+        .keper-title{
+            font-weight: 600;
+            line-height: 36px;
+            letter-spacing: 0.05em;
+            text-transform: uppercase;
+            margin-top: 10px;
+        }
+
+        .keper-title i{
+            font-style: normal;
+            color: var(--secondary-two);
+        }
+
+        .keper-list{
+            margin-top: 24px;
+            width: 80%;
+            height: auto;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px;
+            gap:10px;
+        }
+
+        .keper-item{
+            width: 100%;
+            height: calc(240px/2);
+            border-radius: 5px;
+            border: 2px solid var(--secondary-two);
+        }
+
+        .keper-item-logo{
+            width: 48px;
+            height: 48px;
+        }
+
+        .keper-item-desc{
+            font-weight: 600;
+            line-height: 17px;
+            text-align: center;
+            letter-spacing: 0.05em;
+            text-transform: uppercase;
+            width: 80%;
+            margin-top: 12px;
+        }
+    /* End Keunggulan Perusahaan - keper */
+
+
+    /* Keunggulan Produk - kepro */
+    
+    /* End Keunggulan Produk - kepro */
+
+
+    /* Gambar Proses - gapro */
+       
+    /* End Gambar Proses - gapro */
+
+
+    /* Tentang Kami - teka */
+
+    /* End Tentang Kami - teka */
+
+
+    /* Kenapa Harus Beli Kepada Kami - keha */
+        .keha-item{
+            width: auto;
+            height: auto;
+        }
+    /* End Kenapa Harus Beli Kepada Kami - keha */
+
+
+    /* Testimoni - testimoni */
+
+    /* End Testimoni - testimoni */
+
+
+    /* Daftar Produk - dapro */
+        #daftarProduk {
+            margin-top: 48px;
+            height: auto;
+            position: relative;
+        }
+        .dapro-list{
+            margin-top: 20px;
+        }
+        .dapro-img{
+            width: calc(288px/2);
+            height: calc(270px/2);
+            object-fit: cover;
+        }
+
+    /* End Daftar Produk - dapro */
+
+    /* Kontak Kami - koka */
+    .koka-list li{
+        margin: auto auto !important;
+    }
+    
+    .koka-title{
+        text-align: center !important;
+
+    }
+
+    .koka-subtitle{
+        text-align: center !important;
+    }
+    /* End Kontak Kami - koka */
+
+
+}
+
+@media only screen and (max-width: 1200px) {
+
+    #layoutDefault,
+    #layoutDefault_footer {
+        overflow-x: hidden;
+    }
+
+    /* Button Declaration */
+
+
+    /* Utils */
+    .slick-slider {
+        margin:0 -5px;
+    }
+    .slick-slide {
+        padding:0px;
+        text-align:center;
+        margin-right:5px;
+        margin-left:5px;
+    }
+
+    /* Navbar */
+    .navbar {
+        background-color: var(--accent) !important;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+    }
+
+    .navbar-wrapper-logo{
+        border-radius: 5px;
+    }
+    .navbar-responsive{
+        bottom: 0px;
+        top: 100%;
+        left: 0;
+        width: 100%;
+        height: fit-content;
+        padding: 13px 0;
+        z-index: 10;
+    }
+    .navbar-responsive a{
+        margin: 10px 0;
+    }
+
+    .navbar-responsive a:hover{
+        color: var(--secondary-two);
+    }
+
+    #navbar{
+        overflow: inherit;
+    }
+
+    .navbar-logo{
+        width: 50px;
+        height: 35px;
+    }
+    /* Header */
+    #header{
+        height: calc(461px/1.2);
+        margin-top: calc(69px + 10px + 66px);
+    }
+    .header-bg{
+        top: 0;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .header-bg-front{
+        top: 0;
+        width: 100%;
+        height: 100%;
+        background: linear-gradient(-90deg, rgba(254, 255, 222, 0) 0%, #DDFFBC 100%);
+    }
+
+    .header-title{
+        font-weight: 600;
+        font-size: calc(32px/1.2);
+        line-height: calc(48px/1.2);
+        letter-spacing: 0.08em;
+        text-transform: uppercase;
+        width: 40%;
+        height: auto;
+    }
+
+    
+    /* Keunggulan Perusahaan - keper */
+        
+    /* End Keunggulan Perusahaan - keper */
+
+
+    /* Keunggulan Produk - kepro */
+    #keunggulanProduk {
+            margin-top: 60px;
+            height: auto;
+        }
+
+        .kepro-wrapper-img{
+            width: 90%;
+            height: 100%;
+            background: var(--secondary-one);
+            margin: 0 auto;
+        }
+
+        .kepro-wrapper-text{
+            width: 80%;
+        }
+
+        .kepro-img{
+            width: 90%;
+
+        }
+
+        .kepro-title{
+            margin-top: 20px;
+            font-weight: 600;
+            line-height: calc(36px/1.2);
+            letter-spacing: 0.05em;
+            text-transform: uppercase;
+        }
+
+        .kepro-title i{
+            font-style: normal;
+            color: var(--secondary-two);
+        }
+
+        .kepro-desc{
+            font-weight: 400;
+            line-height: 17px;
+            letter-spacing: 0.11em;
+        }
+    /* End Keunggulan Produk - kepro */
+
+
+    /* Gambar Proses - gapro */
+        #gambarProses{
+            margin-top: 60px;
+            height: auto;
+        }
+
+        .gapro-title{
+            font-weight: 600;
+            line-height: 36px;
+            letter-spacing: 0.05em;
+            text-transform: uppercase;
+            margin-top: 10px;
+        }
+
+        .gapro-title i{
+            font-style: normal;
+            color: var(--secondary-two);
+        }
+
+        .gapro-list{
+            margin-top: 24px;
+            width: 80%;
+            height: auto;
+            justify-content: space-between;
+            align-items: center;
+            gap:10px;
+        }
+
+        .gapro-item{
+            width: 100%;
+            height: 160px;
+            border-radius: 5px;
+        }
+
+        .gapro-item-logo{
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .gapro-item-desc{
+            width: 100%;
+            height: 57px;
+            bottom: 0;
+            background-color: var(--secondary-one);
+            padding: 10px;
+        }
+
+        .gapro-item-desc p{
+            font-weight: 600;
+            line-height: 17px;
+            text-align: center;
+            letter-spacing: 0.05em;
+            text-transform: uppercase;
+        }
+    /* End Gambar Proses - gapro */
+
+
+    /* Tentang Kami - teka */
+        #tentangKami {
+            margin-top:60px;
+            height: auto;
+        }
+
+        .teka-wrapper-img{
+            width: 100%;
+            background: var(--secondary-one);
+            margin-left: auto;
+            display: flex;
+        }
+
+        .teka-wrapper-text{
+            width: 100%;
+            margin-top: 20px;
+            padding: 0 30px;
+        }
+
+        .teka-img{
+            width: 90%;
+            margin: auto;
+        }
+
+        .teka-title{
+            font-weight: 600;
+            line-height: 36px;
+            letter-spacing: 0.05em;
+            text-transform: uppercase;
+        }
+
+        .teka-desc{
+            font-weight: 400;
+            line-height: 17px;
+            letter-spacing: 0.11em;
+        }
+    /* End Tentang Kami - teka */
+
+
+    /* Kenapa Harus Beli Kepada Kami - keha */
+        #kenapaHarusBeliKepadaKami {
+            height: auto;
+        }
+
+        .keha-title{
+            margin-top: 12px;
+        }
+
+        .keha-item{
+            width: 218px;
+            height: 199px;
+        }
+
+        .keha-item-icon{
+            width: calc(60px/1.2);
+            height: calc(60px/1.2);
+        }
+
+    /* End Kenapa Harus Beli Kepada Kami - keha */
+
+
+    /* Testimoni - testimoni */
+        #testimoni {
+            margin-top: 48px;
+            height:auto;
+        }
+
+        .testimoni-title{
+            font-weight: 600;
+            line-height: 36px;
+            letter-spacing: 0.05em;
+            text-align: center;
+            text-transform: uppercase;
+            width:90%;
+        }
+
+        .testimoni-list{
+            width: auto;
+            height: auto;
+            margin-top: 20px;
+            margin-right: auto;
+            padding: 20px;
+        }
+
+        .testimoni-item{
+            background: red;
+        } 
+
+        .testimoni-img{
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+        .testimoni-wrapper-text{
+            margin-top: 10px;
+            width:100%;
+            margin-left: 0;
+        }
+
+        .testimoni-btn{
+            width: 60px;
+            height: 60px;
+            margin: auto 24px 0 auto;
+            object-fit: cover;
+        }
+    /* End Testimoni - testimoni */
+
+
+    /* Daftar Produk - dapro */
+        #daftarProduk{
+            height: auto;
+        }
+        .dapro-list{
+            margin-top: 20px;
+        }
+
+    /* End Daftar Produk - dapro */
+
+
+    /* Kontak Kami - koka */
+
+    .kontak-kami{
+         margin-left: 0px;
+    }
+    .koka-title{
+        font-weight: 700;
+        font-size: 28px;
+        line-height: 38px;
+        margin-bottom: 17px;
+        text-align: left;
+
+    }
+
+    .koka-subtitle{
+        font-weight: 400;
+        line-height: 28px;
+        margin-bottom: 24px;
+        text-align: left;
+    }
+
+    .koka-list li{
+        margin: 0;
+    }
+
+    .koka-icon{
+        width: 37px;
+        height: 37px;
+
+    }
+
+    .koka-desc{
+        margin-left: 12px;
+        font-weight: 400;
+        line-height: 17px;
+    }
+    .koka-list{
+        margin-bottom: 39px;
+    }
+
+    .koka-btn{
+        width: 160px;
+        height: 42px;
+        letter-spacing: 0.04em;
+        font-weight: 700;
+        color: white !important;
+    }
+
+    /* End Kontak Kami - koka */
+
+    /* Footer */
+
+    .footer-title{
+        text-transform: uppercase;
+        text-align: center;
+    }
+    .footer-wrapper-konten{
+        height: 80%;
+    }
+    footer{
+        margin-top: 60px;
+    }
+
+    footer .container{
+        height: auto;
+    }
+
+
+    footer a{
+        margin: 0 10px;
+        color: var(--black) !important;
+    }
+
+    .footer-konten-list a{
+        margin: 10px 0;
+        color: var(--black) !important;
+    }
+
+    .footer-logo{
+        width: 221px;
+        height: 99px;
+    }
+
+    .footer-copyright{
+        margin-top: 10px;
+        border-top: 1px solid var(--black);
+        text-align: center;
+    }
+
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1200.98px) {
+
+    /* Button Declaration */
+
+
+    /* Utils */
+
+
+    /* Navbar */
+
+
+    /* Header */
+
+
+    
+    /* Keunggulan Perusahaan - keper */
+
+    /* End Keunggulan Perusahaan - keper */
+
+
+    /* Keunggulan Produk - kepro */
+
+    /* End Keunggulan Produk - kepro */
+
+
+    /* Gambar Proses - gapro */
+
+    /* End Gambar Proses - gapro */
+
+
+    /* Tentang Kami - teka */
+
+    /* End Tentang Kami - teka */
+
+
+    /* Kenapa Harus Beli Kepada Kami - keha */
+
+    /* End Kenapa Harus Beli Kepada Kami - keha */
+
+
+    /* Testimoni - testimoni */
+
+    /* End Testimoni - testimoni */
+
+
+    /* Daftar Produk - dapro */
+
+    /* End Daftar Produk - dapro */
+
+    
+    /* Footer */
+
+}
